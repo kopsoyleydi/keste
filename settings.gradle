@@ -1,0 +1,10 @@
+rootProject.name = 'schedule-iitu'
+include ':libs:common'
+include 'services:auth-service'
+include 'services:user-service'
+include 'services:schedule:schedule-model'
+include 'services:schedule:schedule-service'
+include 'services:notification:notification-model'
+include 'services:notification:notification-service'
+
+
