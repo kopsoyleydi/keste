@@ -1,0 +1,14 @@
+fcm.service-account-file:
+  /Users/beksultankuralbai/schedule-keste-firebase-adminsdk-fbsvc-51329d5150.json
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/keste
+    username: root
+    password: keste
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
