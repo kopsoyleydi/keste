@@ -1,7 +1,7 @@
 package com.keste.schedule.mapper;
 
 import com.keste.schedule.model.Lesson;
-import com.keste.schedule.model.dictiniory.ScheduleDto;
+import com.keste.schedule.model.ScheduleDto;
 import java.util.List;
 import org.mapstruct.Mapper;
 

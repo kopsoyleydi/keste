@@ -2,7 +2,7 @@ package com.keste.schedule.service.schedule;
 
 import com.keste.schedule.mapper.ScheduleMapper;
 import com.keste.schedule.model.Lesson;
-import com.keste.schedule.model.dictiniory.ScheduleDto;
+import com.keste.schedule.model.ScheduleDto;
 import com.keste.schedule.repository.ScheduleRepository;
 import com.keste.schedule.service.ScheduleService;
 import java.util.List;

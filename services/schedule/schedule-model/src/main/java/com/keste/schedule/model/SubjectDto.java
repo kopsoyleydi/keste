@@ -1,4 +1,4 @@
-package com.keste.schedule.model.dictiniory;
+package com.keste.schedule.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,11 +9,13 @@ import lombok.Setter;
 @AllArgsConstructor
 public class SubjectDto {
 
-  private String name;
+  private Long id;
 
-  private String audienceNumber;
+  private String name;
 
   private Long lecturerId;
 
-  private TeacherDto teacher;
+  private Long practiceTeacherId;
+
+  private PracticeTeacherDto teacher;
 }

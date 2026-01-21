@@ -1,6 +1,6 @@
 package com.keste.schedule.service;
 
-import com.keste.schedule.model.dictiniory.ScheduleDto;
+import com.keste.schedule.model.ScheduleDto;
 import java.util.List;
 
 public interface ScheduleService {

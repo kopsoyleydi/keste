@@ -1,4 +1,4 @@
-package com.keste.schedule.model.dictiniory;
+package com.keste.schedule.model;
 
 import com.keste.common.model.WeekDays;
 import java.time.LocalDateTime;
@@ -15,13 +15,15 @@ public class ScheduleDto {
 
   private Long id;
 
-  private Long userId;
-
   private Long subjectId;
 
-  private LocalDateTime startTime;
+  private String startTime;
 
-  private LocalDateTime endTime;
+  private String endTime;
+
+  private String audienceNumber;
+
+  private String addressId;
 
   private WeekDays dayOfWeek;
 }

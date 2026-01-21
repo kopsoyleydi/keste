@@ -1,11 +1,9 @@
 package com.keste.schedule.model;
 
-import com.keste.schedule.model.dictiniory.TeacherDto;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -30,8 +28,6 @@ public class Subject {
   private String name;
 
   private String description;
-
-  private String audienceNumber;
 
   @ManyToOne
   private Lecturer lecturer;

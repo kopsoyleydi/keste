@@ -7,8 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class NotificationDto {
-  Long userId;
-  String message;
-  Map<String, Object> params;
-  Enum<?> notificationType;
+  private Long userId;
+  private String message;
+  private Map<String, Object> params;
+  private Enum<?> notificationType;
 }

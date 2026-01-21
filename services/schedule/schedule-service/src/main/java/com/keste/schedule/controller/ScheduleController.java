@@ -1,6 +1,6 @@
 package com.keste.schedule.controller;
 
-import com.keste.schedule.model.dictiniory.ScheduleDto;
+import com.keste.schedule.model.ScheduleDto;
 import com.keste.schedule.service.ScheduleService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;

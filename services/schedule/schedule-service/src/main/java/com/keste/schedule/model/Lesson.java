@@ -32,6 +32,10 @@ public class Lesson {
   @ManyToOne
   private Subject subject;
 
+  private String audienceNumber;
+
+  private Integer floor;
+
   private LocalDateTime startTime;
 
   private LocalDateTime endTime;
